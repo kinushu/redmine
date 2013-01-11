@@ -2,10 +2,7 @@
 /.loadpath
 /config/additional_environment.rb
 /config/configuration.yml
-/config/database.yml
 /config/email.yml
-/config/initializers/session_store.rb
-/config/initializers/secret_token.rb
 /coverage
 /db/*.db
 /db/*.sqlite3
@@ -16,7 +13,6 @@
 /log/*.log*
 /log/mongrel_debug
 /public/dispatch.*
-/public/plugin_assets
 /tmp/*
 /tmp/cache/*
 /tmp/pdf/*
@@ -28,6 +24,5 @@
 *.rbc
 
 /.bundle
-/Gemfile.lock
-/Gemfile.local
+
 
