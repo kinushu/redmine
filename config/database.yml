@@ -38,6 +38,13 @@ test:
   password: ""
   encoding: utf8
 
+test_pgsql:
+  adapter: postgresql
+  database: redmine_test
+  host: localhost
+  username: postgres
+  password: "postgres"
+  
 # PostgreSQL configuration example
 #production:
 #  adapter: postgresql
