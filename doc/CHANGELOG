@@ -4,6 +4,7 @@ Redmine - project management software
 Copyright (C) 2006-2014  Jean-Philippe Lang
 http://www.redmine.org/
 
+<<<<<<< HEAD
 == 2014-10-21 v2.6.0
 
 * Defect #8753: PDF export for Hebrew is reversed
@@ -104,6 +105,8 @@ http://www.redmine.org/
 * Patch #17166: Japanese translation update (plugin update check)
 * Patch #17301: Czech plugin strings
 
+=======
+>>>>>>> heroku_develop
 == 2014-03-29 v2.5.1
 
 * Defect #14298: Error generated on 'search for watchers to add' after clicking add without selected users
