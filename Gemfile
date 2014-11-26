@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+ruby "2.1.2"
+
 gem "rails", "3.2.18"
 gem "rake", "~> 10.1.1"
 gem "jquery-rails", "~> 2.0.2"
@@ -62,9 +64,10 @@ if File.exist?(database_file)
       when /postgresql/
         gem "pg", ">= 0.11.0", :platforms => [:mri, :mingw]
         gem "activerecord-jdbcpostgresql-adapter", :platforms => :jruby
+        gem "activerecord-postgresql-adapter"
       when /sqlite3/
-        gem "sqlite3", :platforms => [:mri, :mingw]
-        gem "activerecord-jdbcsqlite3-adapter", :platforms => :jruby
+#        gem "sqlite3", :platforms => [:mri, :mingw]
+#        gem "activerecord-jdbcsqlite3-adapter", :platforms => :jruby
       when /sqlserver/
         gem "tiny_tds", "~> 0.5.1", :platforms => [:mri, :mingw]
         gem "activerecord-sqlserver-adapter", :platforms => [:mri, :mingw]
